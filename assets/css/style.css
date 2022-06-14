@@ -1,0 +1,153 @@
+/* global attributes*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+    color:#ffffff
+}
+
+/* banner styling */
+.header-content {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header-content h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header-content h1 .seo {
+    color: #d9dcd6;
+    display:i
+}
+
+.header-content div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header-content div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* header image sizing and positioning */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*positions images */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.main-content {
+    margin-left: 20px;
+    color:#ffffff;
+}
+/*positioning and styling for main-benefits section */
+.main-benefits {
+    display: inline-block;
+    width: 75%;
+}
+ 
+.optimization, .management, .marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    background-color: #0072bb;
+}
+
+.optimization img, .management img, .marketing img {
+    max-height: 200px;
+}
+
+
+.optimization h2, .management h2, .marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*postioning and styling  side benefits section */
+.side-benefits {
+    display:inline block;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1d658c;
+    color: rgb(255, 255, 255);
+    image width: 50px;
+    image height:50px;
+}
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px; 
+}
+
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3  {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img, .benefit-brand img, .benefit-cost  img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*positioning and styling for footer*/
+.footer-content {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:black
+}
+
+.footer-content h2{
+    font-size: 20px;
+}
+ 
+
+
